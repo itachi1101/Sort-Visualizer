@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  color: white;
+}
+.main {
+  display: flex;
+  width: 100vw;
+  flex-direction: column;
+  align-items: center;
+}
+.title {
+  text-transform: capitalize;
+  font-weight: bold;
+  word-spacing: 2px;
+}
+.description {
+  width: 70%;
+  text-align: left;
+}
+.timeContainer {
+  padding:1%;
+  display: flex;
+  width: 70%;
+}
+.time-heading {
+  display: flex;
+  justify-content: center;
+  width: 30%;
+}
+.timeComplx {
+  display: flex;
+  width: 70%;
+  justify-content: space-around;
+}
+.timeComplx div {
+  display: flex;
+}
+.spaceComplx {
+  display: flex;
+  width: 70%;
+  padding:1%;
+}
+.space-heading {
+  width: 30%;
+  text-align: center;
+}
+.space-value {
+  text-align: center;
+  width: 20%;
+
+}
